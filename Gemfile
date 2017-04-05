@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-ruby "2.3.0"
+ruby "2.4.0"
 
 gem "jekyll"
 gem "jekyll-watch"
 gem "kramdown"
-gem "scss-lint"
+gem "scss_lint"
