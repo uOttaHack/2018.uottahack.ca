@@ -30,10 +30,10 @@ seo:
 
 # Event information.
 event:
-  name:        "uOttaHack"
-  description: "Under construction.  Amazing stuff coming soon."
-  date:        "February 2018"
-  location:    "Ottawa, ON, Canada"
+  name:        "UOTTAHack"
+  description: "Amazing things coming soon."
+  date:        "Winter 2018"
+  location:    "University of Ottawa"
 
   trust_badge:
     year:   "2018"  # season year
@@ -46,12 +46,12 @@ event:
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://uottahacks.github.io/landing-page/success.html"
-      - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+      - text: "Reach us at hi@uottahack.com"
+        href: "mailto:plee032@uottawa.ca"
 
   about:
     description: >
-      uOttaHack is a hackathon taking place at the University of Ottawa in February 2018.
+      UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are dilligently working on making cool things happen, so check back soon for more information!
 
   # Info Sections
   info:
