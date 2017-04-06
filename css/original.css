@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #9f3643;
 }
 
 section {
@@ -43,29 +43,6 @@ section {
   width: 10%;
   z-index: 10000;
 }
-
-/*
-
-Navbar section
-
-*/
-
-.navbartop{
-  background-color: #9f3643;
-}
-
-.navbartop .navbtn{
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #9f3643;
-  color:#fff;
-  font-size: 20px;
-  font-weight: 15;
-  border;
-}
-
-
-
 
 /*
  * Hero Section
@@ -238,7 +215,7 @@ Navbar section
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #9f3643;
   color: #fff;
   padding: 30px 0;
 }
