@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #9f3643;
 }
 
 section {
@@ -52,6 +52,8 @@ Navbar section
 
 .navbartop{
   background-color: #9f3643;
+  position: fixed;
+  z-index: 1;
 }
 
 .navbartop .navbtn{
@@ -64,16 +66,13 @@ Navbar section
   border;
 }
 
-
-
-
 /*
  * Hero Section
  */
 
 .hero {
   background-color: #9f3643;
-  min-height: 110vh;
+  min-height: 100vh;
   color: #fff;
 }
 
@@ -89,7 +88,7 @@ Navbar section
 }
 
 .hero .wrapper {
-  padding-top: 30vh;
+  padding-top: 20vh;
 }
 
 .hero .wrapper h1 {
@@ -238,7 +237,7 @@ Navbar section
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #9f3643;
   color: #fff;
   padding: 30px 0;
 }
