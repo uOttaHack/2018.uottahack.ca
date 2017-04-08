@@ -17,14 +17,13 @@ html {
 @media(min-width:767px) {
     .navbar {
         padding: 10px 0;
-        background-color: #CEBEBE;
+        color: #fff !important;
+        background-color: #9f3643;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .nav .navbar-nav a{
-      color:#fff;
+        border: 0;
+        box-shadow:none;
     }
 
     .page-scroll{
@@ -32,11 +31,15 @@ html {
       padding-right: 30px;
       font-size: 20px;
       font-weight: 15;
+      color: #fff !important;
     }
 
     .top-nav-collapse {
         padding: 0;
+        background-color:#3c5067;
+        color: #bababa;
     }
+
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.

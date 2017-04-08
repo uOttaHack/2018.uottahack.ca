@@ -10,6 +10,9 @@
 /* Montserrat Google Font */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+
 /*
  * Primary Blue: #44D5FF;
  * Dark Blue: #0F2C34;
@@ -28,6 +31,7 @@ body {
 section {
   overflow-x:hidden;
 }
+
 
 /*
  * Trust Badge
@@ -145,10 +149,10 @@ section {
  */
 
 .info {
-  background-color: #fff;
-  margin-top: 15px;
+  background-color: #9f3643;
   padding: 100px 0;
   position: relative;
+  color: #fff;
 }
 
 .info .item {
@@ -171,14 +175,34 @@ section {
 }
 
 /*
+* The Team Section
+*/
+
+.team {
+  background-color: #fff;
+  padding-bottom:800px;
+}
+
+.team h1{
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+
+
+/*
  * FAQ Section
  */
 
 .faq {
-  background-color: #fff;
-  margin-top: 15px;
+  background-color: #9f3643;
+  color: #fff;
   padding: 100px 0;
   position: relative;
+}
+
+.faq a{
+  color: rgb(254, 233, 93);
 }
 
 .faq h1 {
@@ -215,8 +239,8 @@ section {
  */
 
 .footer {
-  background-color: #9f3643;
-  color: #fff;
+  background-color: #fff;
+  color: #9f3643;
   padding: 30px 0;
 }
 
@@ -234,7 +258,7 @@ section {
 }
 
 .footer h3 a {
-  color: #fff;
+  color: #9f3643;
 }
 
 @media(max-width: 768px) {
