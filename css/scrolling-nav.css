@@ -18,7 +18,7 @@ html {
     .navbar {
         padding: 10px 0;
         color: #fff !important;
-        background-color: #9f3643;
+        background:none;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;

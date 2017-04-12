@@ -71,24 +71,31 @@ event:
 
   # Frequently asked questions.
   faq:
-    - question: "What is a hackathon?"
+    - question: "What is uOttaHack?"
       answer: >
-        A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
-    - question: "How much does it cost?"
+        uOttaHack is a friendly, open [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's an event where students from all across Canada will come to turn their ideas into real projects, and have fun along the way!
+    - question: "Who can come?"
       answer: >
-        Nothing. Attending a hackathon is free.
-    - question: "Do I need to be a student to attend?"
+        Any student, at any skill level, from any field of study are welcome! The only thing you need is an interest in building something amazing, and the motivation to learn!
+    - question: "How much will it cost me?"
       answer: >
-        Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend.
+        Nothing at all! Attending the hackathon is completely free, including any meals during the hackathon.
+    - question: "Can high school students come?"
+      answer: >
+        Yes!! We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
+
+  faq-right:
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at the University of Ottawa.
+        The hackathon is being hosted on the beautiful campus of the University of Ottawa.
+      # Embed a map to the venu here
+    - question: I think I'd rather help others learn instead of making my own hack, can I still come?
+      answer: >
+        Yes! If you're experienced in CS and would like to be a student mentor, drop us a line at hi@uottahack.com
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-        We work with over 200 Member Events and empower over 70,000 students every year.
+        They work with over 200 Member Events and empower over 70,000 students every year.
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).

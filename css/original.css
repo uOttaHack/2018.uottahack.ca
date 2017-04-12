@@ -52,10 +52,33 @@ section {
  * Hero Section
  */
 
+.hero::before{
+  content: "";
+  position: fixed;
+  top: -5%;
+  left: -5%;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("/images/campus1.jpg");
+  background-size:cover;
+  width: 110%;
+  height: 110%;
+
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+
 .hero {
-  background-color: #9f3643;
   min-height: 110vh;
   color: #fff;
+  z-index:0;
+  overflow:auto;
 }
 
 .hero img {
@@ -179,8 +202,9 @@ section {
 */
 
 .team {
-  background-color: #fff;
+  background-color: #9f3643;
   padding-bottom:800px;
+  color: #fff;
 }
 
 .team h1{
@@ -195,14 +219,14 @@ section {
  */
 
 .faq {
-  background-color: #9f3643;
-  color: #fff;
+  background-color: #fff;
+  color: #9f3643;
   padding: 100px 0;
   position: relative;
 }
 
 .faq a{
-  color: rgb(254, 233, 93);
+  color: rgb(249, 223, 57);
 }
 
 .faq h1 {
@@ -212,9 +236,10 @@ section {
 }
 
 .faq .question h2 {
-  font-family: 'Montserrat';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 24px;
+  color:#0F2C34;
 }
 
 .faq .question hr {
