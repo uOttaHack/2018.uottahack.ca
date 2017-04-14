@@ -71,6 +71,8 @@ section {
   -o-filter: blur(10px);
   -ms-filter: blur(10px);
   filter: blur(10px);
+  -webkit-transform: translate3d(0,0,0);
+
 }
 
 
