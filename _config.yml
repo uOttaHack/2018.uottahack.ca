@@ -31,7 +31,7 @@ seo:
 # Event information.
 event:
   name:        "UOTTAHack"
-  description: "Amazing things coming soon."
+  description: "UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are dilligently working on making cool things happen, so check back soon for more information!"
   date:        "Winter 2018"
   location:    "University of Ottawa"
 
@@ -85,13 +85,13 @@ event:
         Yes!! We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
 
   faq-right:
-    - question: "Where is the event?"
+    - question: "Where and when is the event?"
       answer: >
-        The hackathon is being hosted on the beautiful campus of the University of Ottawa.
+        The hackathon will be hosted on the beautiful campus of the University of Ottawa, and will take place in February 2018.
       # Embed a map to the venu here
     - question: I think I'd rather help others learn instead of making my own hack, can I still come?
       answer: >
-        Yes! If you're experienced in CS and would like to be a student mentor, drop us a line at hi@uottahack.com
+        **Yes!** If you're experienced in CS and would like to be a student mentor, drop us a line at [hi@uottahack.com](mailto:plee032@uottawa.ca).
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
