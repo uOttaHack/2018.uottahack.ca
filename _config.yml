@@ -25,13 +25,13 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "uOttaHack"
-  description: "Under construction.  Amazing stuff coming soon."
+  description: "UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are diligently working on making cool things happen, so check back soon for more information!"
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "UOTTAHack"
-  description: "UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are dilligently working on making cool things happen, so check back soon for more information!"
+  description: "UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018."
   date:        "Winter 2018"
   location:    "University of Ottawa"
 
@@ -51,7 +51,7 @@ event:
 
   about:
     description: >
-      UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are dilligently working on making cool things happen, so check back soon for more information!
+      UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are diligently working on making cool things happen, so check back soon for more information!
 
   # Info Sections
   info:
@@ -79,17 +79,17 @@ event:
         Any student, at any skill level, from any field of study are welcome! The only thing you need is an interest in building something amazing, and the motivation to learn!
     - question: "How much will it cost me?"
       answer: >
-        Nothing at all! Attending the hackathon is completely free, including any meals during the hackathon.
+        **Nothing at all!** Attending the hackathon is completely free, including any meals during the hackathon.
     - question: "Can high school students come?"
       answer: >
-        Yes!! We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
+        **Yes!** We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
 
   faq-right:
     - question: "Where and when is the event?"
       answer: >
         The hackathon will be hosted on the beautiful campus of the University of Ottawa, and will take place in February 2018.
       # Embed a map to the venu here
-    - question: I think I'd rather help others learn instead of making my own hack, can I still come?
+    - question: I think I'd rather help others learn instead of making my own hack— can I still come?
       answer: >
         **Yes!** If you're experienced in CS and would like to be a student mentor, drop us a line at [hi@uottahack.com](mailto:plee032@uottawa.ca).
     - question: "What is Major League Hacking?"
