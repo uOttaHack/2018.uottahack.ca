@@ -89,7 +89,7 @@ event:
       answer: >
         The hackathon will be hosted on the beautiful campus of the University of Ottawa, and will take place in February 2018.
       # Embed a map to the venu here
-    - question: I think I'd rather help others learn instead of making my own hack— can I still come?
+    - question: I think I'd rather help others learn instead of making my own hack - can I still come?
       answer: >
         **Yes!** If you're experienced in CS and would like to be a student mentor, drop us a line at [hi@uottahack.com](mailto:plee032@uottawa.ca).
     - question: "What is Major League Hacking?"
