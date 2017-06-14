@@ -30,8 +30,8 @@ seo:
 
 # Event information.
 event:
-  name:        "UOTTAHack"
-  description: "UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018."
+  name:        "uOttaHack"
+  description: "uOttaHack is a hackathon taking place at the University of Ottawa in Winter 2018."
   date:        "Winter 2018"
   location:    "University of Ottawa"
 
@@ -47,6 +47,8 @@ event:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://uottahacks.github.io/landing-page/success.html"
       - text: "Reach us at hi@uottahack.com"
+        href: "mailto:plee032@uottawa.ca"
+      - text: "Sponsor Us!"
         href: "mailto:plee032@uottawa.ca"
 
   about:
