@@ -18,6 +18,7 @@ $(function() {
     });
 });
 
+//FAQ accordion JS
 $(document).ready(function() {
     function close_accordion_section() {
         $('.accordion .accordion-section-title').removeClass('active');
@@ -38,3 +39,14 @@ $(document).ready(function() {
         e.preventDefault();
     });
 });
+
+//MailChimp JS Function for the subscribe button
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L){
+        L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"0d17aed384fbbc8c0739e835b","lid":"8e7cdd5f11"}) })
+    document.cookie = "MCEvilPopupClosed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+};
+
+document.getElementById("open-popup").onclick = function() {
+    showMailingPopUp()
+};
