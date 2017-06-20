@@ -31,7 +31,7 @@ seo:
 # Event information.
 event:
   name:        "uOttaHack"
-  description: "uOttaHack is a hackathon taking place at the University of Ottawa in Winter 2018."
+  description: "uOttawa's Largest Inaugural Hackathon."
   date:        "Winter 2018"
   location:    "University of Ottawa"
 

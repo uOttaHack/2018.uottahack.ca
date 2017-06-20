@@ -94,7 +94,19 @@ section {
 }
 
 .hero .wrapper {
-  padding-top: 30vh;
+  background-color: rgba(77, 82, 87, 0.6);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: absolute;
+  min-width: 28.5rem;
+}
+
+.hero img{
+  padding-top: 25px;
 }
 
 .hero .wrapper h1 {
@@ -143,6 +155,7 @@ section {
 .hero .buttons a:not(:last-child) {
   margin-right: 10px;
 }
+
 
 /*
  * About Section
