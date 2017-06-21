@@ -249,13 +249,14 @@ section {
 
 .team {
   background-color: #9f3643;
-  padding-bottom:800px;
+  padding: 50px 0px 800px 0px;
   color: #fff;
 }
 
 .team h1{
   font-family: 'Raleway';
   font-weight: 700;
+  margin: 30px 0;
 }
 
 /*
