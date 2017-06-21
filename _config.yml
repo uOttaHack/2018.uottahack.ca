@@ -50,6 +50,8 @@ event:
         href: "mailto:plee032@uottawa.ca"
       - text: "Sponsor Us!"
         href: "mailto:plee032@uottawa.ca"
+      - text: "Sign up for more info"
+        onclick: "showMailingPopUp();return false;"
 
   about:
     description: >

@@ -12,7 +12,7 @@ $(function() {
     $(document).on('click', 'a.page-scroll', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - $('.navbar-nav').outerHeight()
+            scrollTop: $($anchor.attr('href')).offset().top /* - $('.navbar-nav').outerHeight() */
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -45,8 +45,4 @@ function showMailingPopUp() {
     require(["mojo/signup-forms/Loader"], function(L){
         L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"0d17aed384fbbc8c0739e835b","lid":"8e7cdd5f11"}) })
     document.cookie = "MCEvilPopupClosed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
-};
-
-document.getElementById("open-popup").onclick = function() {
-    showMailingPopUp()
 };
