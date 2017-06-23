@@ -93,7 +93,8 @@ section {
 }
 
 .hero .wrapper {
-    background-color: rgba(77, 82, 87, 0.6);
+    background-color: rgba(77, 82, 87, 0.3);
+    border-radius: 10px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 15px;
@@ -204,10 +205,10 @@ button#mc-embedded-subscribe:hover {
 */
 
 .sponsors{
-    background-color:#fff;
-    padding: 200px;
+    background-color:#8B181D;
+    padding: 100px;
     position: relative:
-    color: #084259;
+    color: #fff;
 }
 
 .sponsors a {
@@ -218,7 +219,6 @@ button#mc-embedded-subscribe:hover {
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 700;
-    padding: 10px 70px;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -227,6 +227,32 @@ button#mc-embedded-subscribe:hover {
 .sponsors h1{
     font-family: 'Raleway';
     font-weight: 700;
+    color: #fff;
+}
+
+.sponsors a {
+    display: inline;
+    clear: none;
+    background: #eeb038;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+
+.sponsors a:hover,
+.sponsors a:focus {
+    background-color: #f5c66c;
+    color: #2867b0;
+    transition: all 0.2s ease;
+}
+
+.sponsors a:not(:last-child) {
+    margin-right: 10px;
 }
 
 /*
@@ -234,9 +260,9 @@ button#mc-embedded-subscribe:hover {
 */
 
 .team {
-    background-color: #8B181D;
+    background-color: #fff;
     padding: 50px 0px 800px 0px;
-    color: #fff;
+    color: #8B181D;
 }
 
 .team h1{

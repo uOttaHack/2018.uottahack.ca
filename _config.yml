@@ -48,8 +48,6 @@ event:
           redirect_uri: "https://uottahacks.github.io/landing-page/success.html"
       - text: "Reach us at hi@uottahack.com"
         href: "mailto:plee032@uottawa.ca"
-      - text: "Sponsor Us!"
-        href: "mailto:plee032@uottawa.ca"
 
   about:
     description: >
@@ -84,7 +82,7 @@ event:
     - question: "+ Where and when is the event?"
       answer: >
         The hackathon will be hosted on the beautiful campus of the University of Ottawa, and will take place in February 2018.
-      # Embed a map to the venu here (or make it a section)    
+      # Embed a map to the venu here (or make it a section)
     - question: "+ Can I work on a project I've already started?"
       answer: >
         As awesome as your project is sure to be, it'll have to wait on the sidelines during the hackathon. All projects must be started from scratch at the event, but you're free to think up an idea for one!
