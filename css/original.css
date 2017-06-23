@@ -12,10 +12,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
-
 /*
 * Primary Blue: #44D5FF;
-* Dark Blue: #0F2C34;
+* Dark Blue: #084259;
 * Primary Pink: #FF7FA8;
 */
 
@@ -87,7 +86,7 @@ section {
 }
 
 .hero hr {
-    border-top: 15px solid #0F2C34;
+    border-top: 15px solid #084259;
     margin: 0;
     position: relative;
     top: -14px;
@@ -104,10 +103,6 @@ section {
     top: 50%;
     position: absolute;
     min-width: 28.5rem;
-}
-
-.hero img{
-    padding-top: 25px;
 }
 
 .hero .wrapper h1 {
@@ -155,6 +150,11 @@ section {
     margin-right: 10px;
 }
 
+.logo{
+  width:100%;
+  margin:auto;
+}
+
 /*
 * About Section
 */
@@ -162,12 +162,12 @@ section {
 .about {
     border-width: 15px 0;
     background-color: #fff;
-    padding: 130px 0;
+    padding: 100px 0;
     position: relative;
 }
 
 .about p {
-    color: #0F2C34;
+    color: #084259;
     font-weight: 600;
     font-size: 22px;
     line-height: 1.6em;
@@ -207,7 +207,7 @@ button#mc-embedded-subscribe:hover {
     background-color:#fff;
     padding: 200px;
     position: relative:
-    color: #0F2C34;
+    color: #084259;
 }
 
 .sponsors a {
@@ -229,44 +229,12 @@ button#mc-embedded-subscribe:hover {
     font-weight: 700;
 }
 
-
-
-/*
-* Info Section
-*/
-
-.info {
-    background-color: #9f3643;
-    padding: 100px 0;
-    position: relative;
-    color: #fff;
-}
-
-.info .item {
-    padding: 20px;
-}
-
-.info .item h1 {
-    font-family: 'Montserrat';
-    font-size: 45px;
-    font-weight: 700;
-    margin: 20px 0;
-}
-
-.info .item img {
-    max-width: 220px;
-}
-
-.info .item p {
-    font-size: 20px;
-}
-
 /*
 * The Team Section
 */
 
 .team {
-    background-color: #9f3643;
+    background-color: #8B181D;
     padding: 50px 0px 800px 0px;
     color: #fff;
 }
@@ -283,9 +251,8 @@ button#mc-embedded-subscribe:hover {
 
 .faq {
     background-color: #fff;
-    color: #9f3643;
-    padding: 50px 0;
-    position: relative;
+    color: #8B181D;
+    padding: 50px 0px 100px;
 }
 
 .faq a{
@@ -308,11 +275,11 @@ button#mc-embedded-subscribe:hover {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 24px;
-    color:#0F2C34;
+    color:#084259;
 }
 
 .faq .question hr {
-    border-top: 8px solid #0F2C34;
+    border-top: 8px solid #084259;
     margin: 20px 0;
     width: 80px;
 }
@@ -377,7 +344,7 @@ a.accordion-section-title:hover, a.accordion-section-title.active {
 
 .footer {
     background-color: #fff;
-    color: #9f3643;
+    color: #8B181D;
     padding: 30px 0;
 }
 
@@ -395,7 +362,7 @@ a.accordion-section-title:hover, a.accordion-section-title.active {
 }
 
 .footer h3 a {
-    color: #9f3643;
+    color: #8B181D;
 }
 
 @media(max-width: 768px) {
@@ -414,4 +381,8 @@ a.accordion-section-title:hover, a.accordion-section-title.active {
         border-top-width: 8px;
         top: -8px;
     }
+}
+
+.navbar .navbar-brand{
+  padding-top:0px;
 }

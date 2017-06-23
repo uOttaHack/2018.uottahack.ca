@@ -22,7 +22,9 @@ __    __    ______   .___________.___________.    ___       __    __       ___  
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand page-scroll" href="#page-top">logoHere</a>
+              <a class="navbar-brand page-scroll" href="#page-top">
+                <img src="/images/logomain.png" width="50" height="50" alt="">
+              </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +41,7 @@ __    __    ______   .___________.___________.    ___       __    __       ___  
                       <a class="page-scroll" href="#sponsors">Sponsors</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="#team">The Team</a>
+                      <a class="page-scroll" href="#faq">FAQ</a>
                   </li>
                   <!--
                   <li>
@@ -47,7 +49,7 @@ __    __    ______   .___________.___________.    ___       __    __       ___  
                   </li>
                   -->
                   <li>
-                      <a class="page-scroll" href="#faq">FAQ</a>
+                      <a class="page-scroll" href="#team">The Team</a>
                   </li>
               </ul>
           </div>
@@ -62,6 +64,9 @@ __    __    ______   .___________.___________.    ___       __    __       ___  
     <div class="container">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
             {{ site.event.about.description | markdownify }}
+        </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+            {{ site.event.about.mail | markdownify }}
         </div>
     </div>
     <!-- Begin MailChimp Signup Form -->
@@ -93,14 +98,6 @@ __    __    ______   .___________.___________.    ___       __    __       ___  
   </div>
 </section>
 -->
-
-<section id ="team" class="team">
-  <div class="container">
-    <h1 class="text-center">Meet The Team</h1>
-    <div class="row">
-    </div>
-  </div>
-</section>
 
 <section id ="faq" class="faq">
   <div class="container">
@@ -143,4 +140,13 @@ __    __    ______   .___________.___________.    ___       __    __       ___  
     </div>
     {% endfor %}
 </section>
+
+<section id ="team" class="team">
+  <div class="container">
+    <h1 class="text-center">Meet The Team</h1>
+    <div class="row">
+    </div>
+  </div>
+</section>
+
 </body>
