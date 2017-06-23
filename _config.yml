@@ -73,30 +73,30 @@ event:
 
   # Frequently asked questions.
   faq:
-    - question: "What is uOttaHack?"
+    - question: "+ What is uOttaHack?"
       answer: >
         uOttaHack is a friendly, open [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's an event where students from all across Canada will come to turn their ideas into real projects, and have fun along the way!
-    - question: "Who can come?"
+    - question: "+ Who can come?"
       answer: >
         Any student, at any skill level, from any field of study are welcome! The only thing you need is an interest in building something amazing, and the motivation to learn!
-    - question: "How much will it cost me?"
+    - question: "+ How much will it cost me?"
       answer: >
         **Nothing at all!** Attending the hackathon is completely free, including any meals during the hackathon.
-    - question: "Can high school students come?"
+    - question: "+ Can high school students come?"
       answer: >
         **Yes!** We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
-    - question: "Where and when is the event?"
+    - question: "+ Where and when is the event?"
       answer: >
         The hackathon will be hosted on the beautiful campus of the University of Ottawa, and will take place in February 2018.
       # Embed a map to the venu here
-    - question: I think I'd rather help others learn instead of making my own hack - can I still come?
+    - question: "+ I think I'd rather help others learn instead of making my own hack - can I still come?"
       answer: >
         **Yes!** If you're experienced in CS and would like to be a student mentor, drop us a line at [hi@uottahack.com](mailto:plee032@uottawa.ca).
-    - question: "What is Major League Hacking?"
+    - question: "+ What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
         They work with over 200 Member Events and empower over 70,000 students every year.
-    - question: "Is there a code of conduct?"
+    - question: "+ Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
