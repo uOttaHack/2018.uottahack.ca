@@ -129,35 +129,31 @@ section {
     padding-bottom: 5px;
 }
 
-.hero .buttons {
-
-}
-
-.hero .buttons a {
+.hero .welcome-buttons {
+    display: inline;
+    clear: none;
     background: #eeb038;
     border-radius: 5px;
+    border: none;
     color: #fff;
-    display: inline;
-    line-height: 60px;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 700;
-    padding: 10px 50px;
-    text-decoration: none;
+    padding: 10px 40px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 
-.hero .buttons a:hover,
-.hero .buttons a:focus {
+.hero .welcome-buttons:hover,
+.hero .welcome-buttons:focus {
     background-color: #f5c66c;
     color: #2867b0;
     transition: all 0.2s ease;
 }
 
-.hero .buttons a:not(:last-child) {
+.hero .welcome-buttons:not(:last-child) {
     margin-right: 10px;
 }
-
 
 /*
 * About Section
