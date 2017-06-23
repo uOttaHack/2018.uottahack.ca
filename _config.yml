@@ -50,12 +50,10 @@ event:
         href: "mailto:plee032@uottawa.ca"
       - text: "Sponsor Us!"
         href: "mailto:plee032@uottawa.ca"
-      - text: "Sign up for more info"
-        onclick: "showMailingPopUp();return false;"
 
   about:
     description: >
-      UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are diligently working on making cool things happen, so check back soon for more information!
+      UOTTAHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are diligently working on making cool things happen! If you would like to know more, provide us with your email below and we'll send you all the good news.
 
   # Info Sections
   info:

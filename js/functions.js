@@ -41,8 +41,8 @@ $(document).ready(function() {
 });
 
 //MailChimp JS Function for the subscribe button
-function showMailingPopUp() {
-    require(["mojo/signup-forms/Loader"], function(L){
-        L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"0d17aed384fbbc8c0739e835b","lid":"8e7cdd5f11"}) })
-    document.cookie = "MCEvilPopupClosed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
-};
+// function showMailingPopUp() {
+//     require(["mojo/signup-forms/Loader"], function(L){
+//         L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"0d17aed384fbbc8c0739e835b","lid":"8e7cdd5f11"}) })
+//     document.cookie = "MCEvilPopupClosed=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+// };
