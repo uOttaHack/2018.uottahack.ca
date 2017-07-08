@@ -31,14 +31,14 @@ seo:
 # Event information.
 event:
   name:        "uOttaHack"
-  description: "uOttawa's Largest Inaugural Hackathon."
-  date:        "Winter 2018"
-  location:    "University of Ottawa"
+  description: "uOttawa's Inaugural Hackathon."
+  date:        "WINTER 2018"
+  location:    "UNIVERSITY OF OTTAWA"
 
   trust_badge:
     year:   "2018"  # season year
     region: "na"    # "na" or "eu"
-    color:  "gray" # "white", "black", "gray", "red", "blue" or "yellow"
+    color:  "blue" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
@@ -51,31 +51,15 @@ event:
 
   about:
     description: >
-      uOttaHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are diligently working on making cool things happen!
+      uOttaHack is a hackathon taking place in Ottawa, Ontario in Winter 2018. The organizers are working hard to make awesome things happen!!
     mail: >
       If you want to be kept updated as we get closer to opening applications, provide us with your email below and we'll send you all the good news.
-
-  # Info Sections
-  info:
-    sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
 
   # Frequently asked questions.
   faq:
     - question: "+ What is uOttaHack?"
       answer: >
-        uOttaHack is a friendly, open [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's an event where students from all across Canada will come to turn their ideas into real projects, and have fun along the way!
+        uOttaHack is a friendly & welcoming [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's a weekend where students from all across Canada will come to turn their ideas into real projects, learn more than they could ever imagine, and have fun along the way!
     - question: "+ Who can come?"
       answer: >
         Any student, at any skill level, from any field of study are welcome! The only thing you need is an interest in building something amazing, and the motivation to learn!
@@ -85,10 +69,13 @@ event:
       # Embed a map to the venu here (or make it a section)
     - question: "+ Can I work on a project I've already started?"
       answer: >
-        As awesome as your project is sure to be, it'll have to wait on the sidelines during the hackathon. All projects must be started from scratch at the event, but you're free to think up an idea for one!
+        As awesome as your project is sure to be, it'll have to wait on the sidelines during the hackathon. All projects must be started from scratch at the event, but you're free to start thinking up an idea for one!
     - question: "+ How much will it cost me?"
       answer: >
         **Nothing at all!** Attending the hackathon is completely free, including any meals during the hackathon.
+    - question: "+ What if I'm not from Ottawa?"
+      answer: >
+        We'd love to have you in the world's coldest capital! We'll be sending to buses to areas where lots of hackers are coming from (Montreal, Waterloo, Toronto, etc.) as well as travel reimbursements. More info will be available closer to the hackathon!
     - question: "+ Are newbie programmers and hackers allowed?"
       answer: >
         Of course! Hackathons are all about learning new things and having an amazing experience. We'll have plenty of workshops and mentors during the event to help you out!
@@ -108,6 +95,10 @@ event:
     - question: "+ Is there a code of conduct?"
       answer: >
         Yes there is. The organizers care deeply about everyone's experience and ensuring they get to hack in a comfortable and safe environment. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+
+    - question: "+ My question isn't here! Help!"
+      answer: >
+        We'd love to talk to you! Say [hi@uottahack.com](mailto:hi@uottahack.com)
 
   # This is the message you'll receive once you've registered.
   register:

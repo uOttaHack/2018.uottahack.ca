@@ -120,6 +120,7 @@ section {
 }
 
 .hero .wrapper .datetitle {
+    font-family: Montserrat;
     font-size: 40px;
     font-weight: 400;
     padding-bottom: 5px;
