@@ -1,4 +1,4 @@
-# Offcial uOttaHack Website
+# Official uOttaHack Website
 
 Made using MLH/mlh-hackathon-boilerplate.
 
@@ -7,5 +7,7 @@ Made using MLH/mlh-hackathon-boilerplate.
 [config]: _config.yml
 [github-pages]: https://pages.github.com
 [my-mlh]: https://my.mlh.io
+
+[mlh-github]
 
 # See Basecamp for the Style Guide
