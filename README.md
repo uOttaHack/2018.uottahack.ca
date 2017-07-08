@@ -9,5 +9,9 @@ Made using MLH/mlh-hackathon-boilerplate.
 [my-mlh]: https://my.mlh.io
 
 [mlh-github]
+[jekyll]
+[config]
+[github-pages]
+[my-mlh]
 
-# See Basecamp for the Style Guide
+See Basecamp for the Style Guide
