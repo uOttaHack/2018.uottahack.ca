@@ -46,6 +46,11 @@ section {
     z-index: 10000;
 }
 
+.navbar .navbar-brand{
+  padding-top:0px;
+}
+
+
 /*
 * Hero Section
 */
@@ -83,6 +88,8 @@ section {
 
 .hero img {
     max-width: 400px;
+    height: auto;
+    width: auto;
 }
 
 .hero hr {
@@ -93,28 +100,19 @@ section {
 }
 
 .hero .wrapper {
+    min-width: 200px;
+    width:auto;
     background-color: rgba(77, 82, 87, 0.3);
     border-radius: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 15px;
-    margin-top: 20px;
+    padding: 15px 25px 0px 25px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 50%;
     position: absolute;
-    min-width: 28.5rem;
-}
-
-.hero .wrapper h1 {
-    display: inline-block;
-    font-size: 80px;
-    font-weight: 800;
-    padding: 10px 50px;
 }
 
 .hero .wrapper h2 {
-    font-size: 28px;
+    font-size: auto;
     font-weight: 200;
     padding-bottom: 35px;
 }
@@ -127,7 +125,8 @@ section {
 }
 
 .hero .welcome-buttons {
-    display: inline;
+    min-width: 200px;
+    width: auto;
     clear: none;
     background: #eeb038;
     border-radius: 5px;
@@ -150,7 +149,7 @@ section {
 
 .hero .welcome-buttons:not(:last-child) {
     margin-right: 10px;
-}
+}*/
 
 .logo{
   width:100%;
@@ -390,28 +389,49 @@ a.accordion-section-title:hover, a.accordion-section-title.active {
     color: #8B181D;
 }
 
-@media(max-width: 768px) {
-    .hero .buttons a {
-        border-width: 8px;
-        display: block;
-        font-size: 20px;
-        margin: 5px;
+@media(max-width: 414px) {
+
+    #mlh-trust-badge {
+        right: 65px;
     }
 
     .hero img {
-        width: 250px;
+        max-width: 250px;
+        height: auto;
+        width: auto;
     }
 
-    .hero hr {
-        border-top-width: 8px;
-        top: -8px;
+    .hero .wrapper {
+        width: auto;
+        max-width: 310px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .hero .welcome-buttons {
+        font-size: 3.5vw;
+    }
+
+    .hero .wrapper .datetitle {
+        font-size: auto;
+    }
+
+    .sponsors .welcome-buttons {
+        font-size: 3.5vw;
     }
 
     a.accordion-section-title {
         text-align: center;
     }
+
 }
 
-.navbar .navbar-brand{
-  padding-top:0px;
+@media(max-width: 321px) {
+    body{
+        margin-top: 150px;
+    }
+
+    .hero .wrapper {
+        margin-top: 100px;
+    }
 }
