@@ -25,14 +25,14 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "uOttaHack"
-  description: "uOttaHack is a hackathon taking place at the University of Ottawa in Winter 2018. The organizers are diligently working on making cool things happen, so check back soon for more information!"
+  description: "uOttaHack is a hackathon taking place at the University of Ottawa in February 2018. The organizers are working hard on making awesome things happen, so check back soon for more information!"
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "uOttaHack"
   description: "uOttawa's Inaugural Hackathon."
-  date:        "WINTER 2018"
+  date:        "FEBRUARY 2018"
   location:    "UNIVERSITY OF OTTAWA"
 
   trust_badge:
@@ -46,12 +46,12 @@ event:
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://uottahacks.github.io/landing-page/success.html"
-      - text: "Reach us at hi@uottahack.com"
-        href: "mailto:plee032@uottawa.ca"
+      - text: "Say hi@uottahack.com"
+        href: "mailto:hi@uottahackc.com"
 
   about:
     description: >
-      uOttaHack is a hackathon taking place in Ottawa, Ontario in Winter 2018. The organizers are working hard to make awesome things happen!!
+      uOttaHack is a hackathon taking place in Ottawa, Ontario in February 2018. The organizers are working hard to make awesome things happen!!
     mail: >
       If you want to be kept updated as we get closer to opening applications, provide us with your email below and we'll send you all the good news.
 
