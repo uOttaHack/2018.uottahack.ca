@@ -100,7 +100,6 @@ section {
 }
 
 .hero .wrapper {
-    min-width: 200px;
     width:auto;
     background-color: rgba(77, 82, 87, 0.3);
     border-radius: 10px;
