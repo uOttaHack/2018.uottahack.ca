@@ -12,7 +12,7 @@
             <div class="buttons">
                 {% for link in site.event.hero.links %}
                 {% if link.href %}
-                <form method="get" action="{{ link.href }}" target="_blank">
+                <form method="get" action="{{ link.href }}" target="_top">
                     <button class="welcome-buttons" type="submit">{{ link.text }}</button>
                 </form>
                 {% elsif link.my_mlh %}
