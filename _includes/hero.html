@@ -6,19 +6,18 @@
       <div class ="visible-xs">
         <h1>uOttaHack</h1>
       </div>
-        <h1 rel="location" class="datetitle">{{ site.event.date }} | {{ site.event.location }}</h3>
-            <h2 rel="description">{{ site.event.description }}</h2>
+      <h1 rel="location" class="datetitle">{{ site.event.date }} | {{ site.event.location }}</h1>
+      <h2 rel="description">{{ site.event.description }}</h2>
 
-            <div class="buttons">
-                {% for link in site.event.hero.links %}
-                {% if link.href %}
-                <form method="get" action="{{ link.href }}" target="_top">
-                    <button class="welcome-buttons" type="submit">{{ link.text }}</button>
-                </form>
-                {% elsif link.my_mlh %}
-                <!--<a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>-->
-                {% endif %}
-                {% endfor %}
+      <div class="buttons">
+        {% for link in site.event.hero.links %}
+          {% if link.href %}
+
+            <a href="{{ link.href}}" class="welcome-buttons" target="_top">{{link.text}}</a>
+          {% elsif link.my_mlh %}
+            <!--<a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>-->
+            {% endif %}
+        {% endfor %}
             </div>
         </div>
     </section>
