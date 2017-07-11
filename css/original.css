@@ -64,7 +64,7 @@ section {
     z-index: -1;
 
     display: block;
-    background-image: url("/images/campus1.jpg");
+    background-image: url("/images/background.jpg");
     background-size:cover;
     width: 110%;
     height: 110%;
