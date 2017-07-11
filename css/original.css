@@ -53,7 +53,7 @@ section {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #0b5f80;
+    background-color: #26598E;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -176,6 +176,32 @@ section {
     background-color: #fff;
     padding-top: 100px;
     position: relative;
+}
+.about hr {
+    border-top: 5px solid #8B181D;
+    margin: 0;
+    position: relative;
+    top: -14px;
+    max-width: 50%
+}
+
+.about h2{
+  font-family: 'Raleway';
+  font-weight: 400;
+  margin-bottom: 35px;
+  color: #8B181D;
+  font-size: 30px;
+}
+
+.about .box{
+  margin-bottom: 75px;
+}
+
+.about .box p{
+  font-weight: 300;
+  font-size: 20px;
+  color:#084259;
+  max-width: 75%;
 }
 
 .about p {
