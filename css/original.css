@@ -252,6 +252,15 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     background-color:#8B181D;
     position: relative:
     color: #fff;
+    padding-bottom: 50px;
+}
+
+.sponsors h2{
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .sponsors h1{
@@ -261,7 +270,6 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     text-align: center;
     margin-top: 100px;
 }
-
 .sponsors .welcome-buttons {
     width:auto;
     display: inline-block;
@@ -277,7 +285,6 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
 }
 
 .sponsors .welcome-buttons:hover,
@@ -291,6 +298,11 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     margin-right: 10px;
 }
 
+.sponsors img{
+  max-width: 250px;
+  height: auto;
+  margin: auto;
+}
 /*
 * The Team Section
 */
