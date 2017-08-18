@@ -103,9 +103,8 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .hero img {
-    max-width: 400px;
+    max-width: 50%;
     height: auto;
-    width: auto;
 }
 
 .hero hr {
@@ -124,6 +123,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    margin-top: 20px;
 }
 
 .hero .wrapper h2 {
