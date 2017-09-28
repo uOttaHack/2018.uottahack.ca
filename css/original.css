@@ -142,9 +142,8 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .hero .welcome-buttons {
     width: auto;
     clear: none;
-    background: #eeb038;
-    border-radius: 5px;
-    border: none;
+    background: #;
+    border: medium solid #fff;
     color: #fff;
     font-family: Montserrat;
     font-size: 24px;
@@ -157,8 +156,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .hero .welcome-buttons:hover,
 .hero .welcome-buttons:focus {
-    background-color: #f5c66c;
-    color: #2867b0;
+    background-color: #656565;
     transition: all 0.2s ease;
 }
 
@@ -177,7 +175,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .about {
     border-width: 15px 0;
-    background-color: #fff;
+    background-color: #f6f7eb;
     padding-top: 100px;
     position: relative;
 }
@@ -230,18 +228,16 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 #mc-embedded-subscribe {
     height: 32px;
-    background: #eeb038;
-    color: white;
-    border-radius: 10px;
-    border: none;
+    color: #eeb038;
+    border: medium solid #eeb038;
     padding: 0px 15px 0px 15px;
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
+    background-color: #f6f7eb;
 }
 
 #mc-embedded-subscribe:hover {
     background-color: #f5c66c;
-    color: #2867b0;
 }
 
 /*
@@ -249,16 +245,16 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 */
 
 .sponsors{
-    background-color:#8B181D;
+    background-color:#f6f7eb;
     position: relative:
-    color: #fff;
+    color: #8B181D;
     padding-bottom: 50px;
 }
 
 .sponsors h2{
     font-family: 'Raleway';
     font-weight: 400;
-    color: #fff;
+    color: #8B181D;
     text-align: center;
     margin-top: 100px;
 }
@@ -266,7 +262,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .sponsors h1{
     font-family: 'Raleway';
     font-weight: 700;
-    color: #fff;
+    color: #8B181D;
     text-align: center;
     margin-top: 100px;
 }
@@ -274,10 +270,9 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     width:auto;
     display: inline-block;
     clear: none;
-    background: #eeb038;
-    border-radius: 5px;
-    border: none;
-    color: #fff;
+    background: #;
+    border: medium solid #eeb038;
+    color: #eeb038;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 700;
@@ -290,8 +285,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .sponsors .welcome-buttons:hover,
 .sponsors .welcome-buttons:focus {
     background-color: #f5c66c;
-    color: #2867b0;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
 }
 
 .sponsors .welcome-buttons:not(:last-child) {
@@ -308,7 +302,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 */
 
 .team {
-    background-color: #fff;
+    background-color: #f6f7eb;
     padding: 50px 0px 75px 0px;
     color: #8B181D;
 }
@@ -331,9 +325,9 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 */
 
 .faq {
-    background-color: #fff;
+    background-color: #f6f7eb;
     color: #8B181D;
-    padding: 50px 0px 100px;
+    padding: 50px 0px 50px;
 }
 
 .faq a{
@@ -387,7 +381,6 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .accordion {
     overflow: hidden;
-    border-radius: 10px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -428,8 +421,8 @@ a.accordion-section-title:hover, a.accordion-section-title.active {
 */
 
 .footer {
-    background-color: #fff;
-    color: #8B181D;
+    background-color: #;
+    color: #fff;
     padding: 30px 0;
 }
 
@@ -447,7 +440,7 @@ a.accordion-section-title:hover, a.accordion-section-title.active {
 }
 
 .footer h3 a {
-    color: #8B181D;
+    color: #ffffff;
 }
 
 @media(max-width: 414px) {

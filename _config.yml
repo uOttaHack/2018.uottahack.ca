@@ -51,51 +51,51 @@ event:
 
   about:
     description: >
-      Stay tuned! The organizers are working hard to make awesome things happen!!
+      Stay tuned! The organizers are working hard to make awesome things happen!
     mail: >
       If you want to be kept updated as we get closer to opening applications, provide us with your email below and we'll send you all the good news.
 
   # Frequently asked questions.
   faq:
-    - question: "+ What is uOttaHack?"
+    - question: "> What is uOttaHack?"
       answer: >
-        uOttaHack is a friendly & welcoming [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's a weekend where students from all across Canada will come to turn their ideas into real projects, learn more than they could ever imagine, and have fun along the way!
-    - question: "+ Who can come?"
+        uOttaHack is the first ever major [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's a weekend where students from all across Canada will come to turn their ideas into real projects, learn more than they could ever imagine, and have fun along the way!
+    - question: "> Who can come?"
       answer: >
         Any student, at any skill level, from any field of study are welcome! The only thing you need is an interest in building something amazing, and the motivation to learn!
-    - question: "+ Where and when is the event?"
+    - question: "> Where and when is the event?"
       answer: >
         The hackathon will be hosted on the beautiful campus of the University of Ottawa, and will take place in February 2018.
       # Embed a map to the venu here (or make it a section)
-    - question: "+ Can I work on a project I've already started?"
+    - question: "> Can I work on a project I've already started?"
       answer: >
-        As awesome as your project is sure to be, it'll have to wait on the sidelines during the hackathon. All projects must be started from scratch at the event, but you're free to start thinking up an idea for one!
-    - question: "+ How much will it cost me?"
+        All projects must be started from scratch at the event, but you're free to start thinking up an idea for one!
+    - question: "> How much will it cost me?"
       answer: >
         **Nothing at all!** Attending the hackathon is completely free, including any meals during the hackathon. We will also provide as much hype as you can possibly imagine.
-    - question: "+ What if I'm not from Ottawa?"
+    - question: "> What if I'm not from Ottawa?"
       answer: >
         We'd love to have you in the world's coldest capital! We'll be sending buses to areas where lots of hackers are coming from (Montreal, Waterloo, Toronto, etc.) as well as travel reimbursements. More info will be available closer to the hackathon!
-    - question: "+ Are newbie programmers and hackers allowed?"
+    - question: "> Are newbie programmers and hackers allowed?"
       answer: >
         Of course! Hackathons are all about learning new things and having an amazing experience. We'll have plenty of workshops and mentors during the event to help you out!
-    - question: "+ Can high school students come?"
+    - question: "> Can high school students come?"
       answer: >
         **Yes!** We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
-    - question: "+ I think I'd rather help others learn instead of making my own hack - can I still come?"
+    - question: "> I think I'd rather help others learn instead of making my own hack - can I still come?"
       answer: >
-        **Yes!** If you're experienced in CS and would like to be a student mentor, drop us a line at [hi@uottahack.com](mailto:plee032@uottawa.ca).
-    - question: "+ Sounds great, but what do I win?"
+        **Yes!** If you're experienced in CS and would like to be a student mentor, contact us at [hi@uottahack.com](mailto:plee032@uottawa.ca).
+    - question: "> Sounds great, but what do I win?"
       answer: >
         We started uOttaHack to empower students in creating innovative, fun, and awesome projects, without the stress of a regular semester's weekend. The biggest reward you will get are the friends you make that last a lifetime, and an experience you won't forget. BUT with that said, you'll have the chance to demo to our stellar panel of judges and the top teams will be rewarded with some sweet prizes! There will also be smaller prizes for specific categories and potentially some given out by our sponors.
-    - question: "+ What is Major League Hacking?"
+    - question: "> What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
         They work with over 200 Member Events and empower over 70,000 students every year.
-    - question: "+ Is there a code of conduct?"
+    - question: "> Is there a code of conduct?"
       answer: >
         Yes there is. The organizers care deeply about everyone's experience and ensuring they get to hack in a comfortable and safe environment. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
-    - question: "+ My question isn't here! Help!"
+    - question: "> My question isn't here! Help!"
       answer: >
         We'd love to talk to you! Say [hi@uottahack.com](mailto:hi@uottahack.com)
 
