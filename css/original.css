@@ -293,9 +293,9 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors img{
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
-  margin: 25px;
+  margin: 2em;
 }
 /*
 * The Team Section
