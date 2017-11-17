@@ -187,6 +187,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     max-width: 50%
 }
 
+.about h1{
+  color: #8B181D;
+}
+
 .about h2{
   font-family: 'Raleway';
   font-weight: 400;
