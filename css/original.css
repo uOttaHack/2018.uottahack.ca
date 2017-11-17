@@ -300,6 +300,48 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   max-width: 200px;
   height: auto;
   margin: 2em;
+
+  -webkit-transition: all 0.75s ease; /* Safari and Chrome */
+  -moz-transition: all 0.75s ease; /* Firefox */
+  -ms-transition: all 0.75s ease; /* IE 9 */
+  -o-transition: all 0.75s ease; /* Opera */
+  transition: all 0.75s ease;
+
+}
+
+.sponsors img:hover{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+
+}
+
+.sponsors .partner img{
+
+}
+
+.sponsors .gold img{
+
+}
+
+.sponsors .silver img{
+  max-width: 300px;
+  height: auto;
+  margin:2em;
+}
+
+.sponsors .bronze img{
+  max-width: 250px;
+  height auto;
+  margin: 2em;
+}
+
+.sponsors .inkind img{
+  max-width: 150px;
+  height: auto;
+  margin: 2em;
 }
 /*
 * The Team Section
