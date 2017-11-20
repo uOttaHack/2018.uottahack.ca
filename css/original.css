@@ -301,11 +301,11 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   height: auto;
   margin: 2em;
 
-  -webkit-transition: all 0.75s easeInOutExpo; /* Safari and Chrome */
-  -moz-transition: all 0.75s easeInOutExpo; /* Firefox */
-  -ms-transition: all 0.75s easeInOutExpo; /* IE 9 */
-  -o-transition: all 0.75s easeInOutExpo; /* Opera */
-  transition: all 0.75s easeInOutExpo;
+  -webkit-transition: all 0.6s ease-in-out; /* Safari and Chrome */
+  -moz-transition: all 0.6s ease-in-out; /* Firefox */
+  -ms-transition: all 0.6s ease-in-out; /* IE 9 */
+  -o-transition: all 0.6s ease-in-out; /* Opera */
+  transition: all 0.6s ease-in-out;
 
 }
 
