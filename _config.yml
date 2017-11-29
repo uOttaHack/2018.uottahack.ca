@@ -70,6 +70,9 @@ event:
     - question: "> Can I work on a project I've already started?"
       answer: >
         All projects must be started from scratch at the event, but you're free to start thinking up an idea for one!
+    - question: "> Can I participate as part of a group?"
+      answer: >
+        **Yes!**   Hacking can be done solo, or in a team of up to four participants.
     - question: "> How much will it cost me?"
       answer: >
         **Nothing at all!** Attending the hackathon is completely free, including any meals during the hackathon. We will also provide as much hype as you can possibly imagine.
