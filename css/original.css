@@ -297,15 +297,14 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors img{
-  max-width: 200px;
-  height: auto;
-  margin: 2em;
+  width: 100%;
+  height: 100%;
 
-  -webkit-transition: all 0.6s ease-in-out; /* Safari and Chrome */
-  -moz-transition: all 0.6s ease-in-out; /* Firefox */
-  -ms-transition: all 0.6s ease-in-out; /* IE 9 */
-  -o-transition: all 0.6s ease-in-out; /* Opera */
-  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.s ease-in-out; /* Safari and Chrome */
+  -moz-transition: all 0.2s ease-in-out; /* Firefox */
+  -ms-transition: all 0.2s ease-in-out; /* IE 9 */
+  -o-transition: all 0.2s ease-in-out; /* Opera */
+  transition: all 0.2s ease-in-out;
 
 }
 
@@ -329,24 +328,135 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 }
 
-.sponsors .silver img{
-  max-width: 350px;
-  height: auto;
-  margin:2em;
+.sponsors .silver{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 3em;
 }
 
-.sponsors .bronze img{
-  max-width: 250px;
-  height auto;
-  margin: 2em;
+.silver-wrapper{
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom:60px;
+  width:100%;
 }
 
-.sponsors .inkind img{
-  max-width: 150px;
-  height: auto;
-  margin: 2em;
+.sponsors .silver .logo--klipfolio {
+  width: 225px;
 }
-/*
+
+.sponsors .silver .logo--marchnetworks {
+  width: 250px;
+}
+.sponsors .silver .logo--surveymonkey {
+  width: 425px;
+}
+
+.sponsors .silver .logo--morganstanley {
+  width: 400px;
+}
+
+.sponsors .bronze {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  margin:3em;
+}
+
+.bronze-wrapper{
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width:100%;
+}
+
+.sponsors .bronze .logo--agilebits{
+  width: 180px;
+}
+
+.sponsors .bronze .logo--accenture{
+  width:180px;
+  padding-bottom: 20px;
+}
+
+.sponsors .bronze .logo--spiria{
+  width:150px;
+}
+
+.inkind-wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.sponsors .inkind {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin:3em;
+}
+
+.sponsors .inkind .logo--jetbrains{
+  width: 100px;
+}
+
+.sponsors .inkind .logo--twilio{
+  width: 150px;
+}
+
+.sponsors .inkind .logo--digitalocean{
+  width:150px;
+}
+
+.sponsors .inkind .logo--nextcanada{
+  width: 150px;
+}
+
+.sponsors .inkind .logo--communitech{
+  width: 150px;
+  }
+
+.sponsors .inkind .logo--redbull{
+  width: 150px;
+}
+
+.community-wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.sponsors .communitypartner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin:3em;
+}
+.sponsors .logo--uo{
+  width:250px;
+}
+
+.sponsors .logo--mlh{
+  width:250px;
+}
+
+.sponsors .logo--github{
+  width:250px;
+}
+
+.sponsors .logo--bloomberg{
+  width: 250px;
+}
+  /*
 * The Team Section
 */
 
