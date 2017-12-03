@@ -13,11 +13,25 @@
         {% for link in site.event.hero.links %}
           {% if link.href %}
 
-            <a href="{{ link.href}}" class="welcome-buttons" target="_top">{{link.text}}</a>
+          <!--  <a href="{{ link.href}}" class="welcome-buttons" target="_top">{{link.text}}</a>-->
           {% elsif link.my_mlh %}
             <!--<a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>-->
             {% endif %}
         {% endfor %}
+        <!-- Button trigger modal -->
+        <button class="welcome-buttons" data-toggle="modal" data-target="#myModal">
+          Apply
+        </button>
             </div>
         </div>
-    </section>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd4gixjrCeG2xZp8weC4Rvq2r9imBSgnGWSzP0CPlfp5O.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
