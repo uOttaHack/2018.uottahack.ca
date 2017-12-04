@@ -345,18 +345,22 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .silver .logo--klipfolio {
-  width: 225px;
+  width: 250px;
 }
 
 .sponsors .silver .logo--marchnetworks {
   width: 250px;
 }
 .sponsors .silver .logo--surveymonkey {
-  width: 425px;
+  width: 450px;
 }
 
 .sponsors .silver .logo--morganstanley {
   width: 400px;
+}
+
+.sponsors .silver .logo--youi {
+  width: 170px;
 }
 
 .sponsors .bronze {
@@ -386,6 +390,11 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .sponsors .bronze .logo--spiria{
   width:150px;
+}
+
+.sponsors .bronze .logo--bitesite img{
+  width: 200px;
+  -webkit-filter: opacity(0.8) drop-shadow(0 0 0 navy);	 /* Safari 6.0 - 9.0 */
 }
 
 .inkind-wrapper{
