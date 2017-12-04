@@ -98,9 +98,9 @@ event:
     - question: "> Is there a code of conduct?"
       answer: >
         Yes there is. The organizers care deeply about everyone's experience and ensuring they get to hack in a comfortable and safe environment. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
-    - question: "> My question isn't here! Help!"
+    - question: "> 404 Question not found"
       answer: >
-        We'd love to talk to you! Say [hi@uottahack.com](mailto:hi@uottahack.com)
+        Talk to us at [hi@uottahack.com](mailto:hi@uottahack.com)
 
   # This is the message you'll receive once you've registered.
   register:
