@@ -324,8 +324,23 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 }
 
-.sponsors .gold img{
+.sponsors .gold{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em;
+}
 
+.gold-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.sponsors .gold .logo--cse{
+  width: 450px;
 }
 
 .sponsors .silver{
