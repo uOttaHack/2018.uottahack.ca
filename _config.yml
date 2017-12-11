@@ -25,13 +25,13 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "uOttaHack: uOttawa's Inaugural Hackathon"
-  description: "uOttaHack is a hackathon taking place at the University of Ottawa in February 2018. uOttaHack is the first hackathon to take place at uOttawa.  Applications are now open, and student programmers of all skill levels are welcome to participate!  uOttaHack will be taking place over the weekend of February 17th and 18th, 2018."
+  description: "uOttaHack is a hackathon taking place at the University of Ottawa in February 2018. uOttaHack is the first MLH hackathon to take place at uOttawa.  Applications are now open, and student programmers of all skill levels are welcome to participate!  uOttaHack will be taking place over the weekend of February 17th and 18th, 2018."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "uOttaHack"
-  description: "uOttawa's Inaugural Hackathon."
+  description: "uOttawa's First MLH Hackathon."
   date:        "FEBRUARY 17 - 18 2018"
   location:    "UNIVERSITY OF OTTAWA"
 
