@@ -24,7 +24,7 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "uOttaHack: uOttawa's Inaugural Hackathon"
+  title:       "uOttaHack: uOttawa's Inaugural MLH Hackathon"
   description: "uOttaHack is a hackathon taking place at the University of Ottawa in February 2018. uOttaHack is the first MLH hackathon to take place at uOttawa.  Applications are now open, and student programmers of all skill levels are welcome to participate!  uOttaHack will be taking place over the weekend of February 17th and 18th, 2018."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
@@ -59,7 +59,7 @@ event:
   faq:
     - question: "> What is uOttaHack?"
       answer: >
-        uOttaHack is the first ever major [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's a weekend where students from all across Canada will come to turn their ideas into real projects, learn more than they could ever imagine, and have fun along the way!
+        uOttaHack is the first ever MLH [hackathon](https://www.youtube.com/watch?v=qj4DQfYx2Hg) hosted by University of Ottawa students! It's a weekend where students from all across Canada will come to turn their ideas into real projects, learn more than they could ever imagine, and have fun along the way!
     - question: "> Who can come?"
       answer: >
         Any student, at any skill level, from any field of study are welcome! The only thing you need is an interest in building something amazing, and the motivation to learn! <br /><br /> **Are you a recent grad?**  No worries - as long as you've graduated in the last 12 months, you're welcome to apply and attend!
