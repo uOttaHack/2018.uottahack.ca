@@ -411,6 +411,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   width: 200px;
 }
 
+.sponsors .bronze .logo--kanatanorthbia img{
+  width: 100px;
+}
+
 .inkind-wrapper{
   max-width: 800px;
   margin: 0 auto;
