@@ -14,7 +14,9 @@
 
 /*
 * Primary Blue: #44D5FF;
-* Dark Blue: #084259;
+* Light Blue (Logo Contour): #3366CC;
+* Dark Blue (Logo Text): #084259;
+* Dark Red (Logo Text): #8B181D
 * Primary Pink: #FF7FA8;
 */
 
@@ -188,14 +190,14 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .about h1{
-  color: #8B181D;
+  color: #3366CC;
 }
 
 .about h2{
   font-family: 'Raleway';
   font-weight: 400;
   margin-bottom: 35px;
-  color: #8B181D;
+  color: #3366CC;
   font-size: 30px;
 }
 
