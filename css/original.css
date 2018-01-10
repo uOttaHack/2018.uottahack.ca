@@ -405,8 +405,8 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   padding-bottom: 20px;
 }
 
-.sponsors .bronze .logo--spiria{
-  width:150px;
+.sponsors .bronze .logo--adga{
+  width:210px;
 }
 
 .sponsors .bronze .logo--bitesite img{
@@ -454,6 +454,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .sponsors .inkind .logo--redbull{
   width: 150px;
+}
+
+.sponsors .inkind .logo--indico{
+	width:100px;
 }
 
 .community-wrapper{
