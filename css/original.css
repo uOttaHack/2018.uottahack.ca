@@ -380,6 +380,11 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   width: 170px;
 }
 
+.sponsors .silver .logo--deloitte {
+  width: 200px;
+}
+
+
 .sponsors .bronze {
   display: flex;
   flex-wrap: wrap;
@@ -458,6 +463,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .sponsors .inkind .logo--indico{
 	width:100px;
+}
+
+.sponsors .inkind .logo--cds{
+	width:70px;
 }
 
 .community-wrapper{
