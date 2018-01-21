@@ -423,6 +423,12 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   width: 120px;
 }
 
+
+.sponsors .bronze .logo--phreesia img{
+  width: 180px;
+}
+
+
 .inkind-wrapper{
   max-width: 800px;
   margin: 0 auto;
