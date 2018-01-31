@@ -342,8 +342,8 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   width: 100%;
 }
 
-.sponsors .gold .logo--cse{
-  width: 700px;
+.sponsors .gold .logo--canada{
+  width: 450px;
 }
 
 .sponsors .silver{
@@ -383,6 +383,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .sponsors .silver .logo--deloitte {
   width: 250px;
+}
+
+.sponsors .bronze .logo--rl {
+  padding-top: 10px;
 }
 
 
