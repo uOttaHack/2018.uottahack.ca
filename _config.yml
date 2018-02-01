@@ -25,7 +25,7 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "uOttaHack: uOttawa's Inaugural MLH Hackathon"
-  description: "uOttaHack is a hackathon taking place at the University of Ottawa in February 2018. uOttaHack is the first MLH hackathon to take place at uOttawa.  Applications are now open, and student programmers of all skill levels are welcome to participate!  uOttaHack will be taking place over the weekend of February 17th and 18th, 2018."
+  description: "uOttaHack is a hackathon taking place at the University of Ottawa on February 17th and 18th, 2018.  uOttaHack is the first MLH hackathon to take place at the University of Ottawa!"
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
@@ -87,10 +87,10 @@ event:
         **Yes!** We highly encourage younger high school students to apply and come get creative! Minors attending will be asked to have waivers signed by their parents/ guardians.
     - question: "> I think I'd rather help others learn instead of making my own hack - can I still come?"
       answer: >
-        **Yes!**  We are currently accepting applications for volunteers and mentors. <br> <br> If you're experienced in hacking or programming and would like to be a student mentor, please apply using the button above. <br> <br> <b> Not experienced in programming or mentoring?</b> No problem!  We're also looking for volunteers to help out with other aspects of uOttaHack.  You can apply using the same button!
+        **Yes!**  We are currently accepting applications for <b>volunteers</b> and <b>mentors</b>.  We are seeking mentors who are experienced in hacking or programming to assist with workshops, and to mentor hackers who have questions or who run into difficulties throughout the hackathon.  Please apply using the button above. <br> <br> <b> Not experienced in programming or mentoring, but still want to help out?</b> No problem - we'd love to have you on board as a volunteer to help out with other aspects of uOttaHack!  You can apply using the same button!
     - question: "> Sounds great, but what do I win?"
       answer: >
-        We started uOttaHack to empower students in creating innovative, fun, and awesome projects, without the stress of a regular semester's weekend. The biggest reward you will get are the friends you make that last a lifetime, and an experience you won't forget. BUT with that said, you'll have the chance to demo to our stellar panel of judges and the top teams will be rewarded with some sweet prizes! There will also be smaller prizes for specific categories and potentially some given out by our sponors.
+        We started uOttaHack to empower students in creating innovative, fun, and awesome projects, without the stress of a regular semester's weekend. The biggest reward you will get are the friends you make that last a lifetime, and an experience you won't forget. <br> <br> <b> But, with that said - </b> you'll have the chance to demo to our stellar panel of judges, and the top teams will be rewarded with some sweet prizes! There will also be smaller prizes for specific categories and potentially some given out by our sponsors!
     - question: "> What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -100,7 +100,7 @@ event:
         Yes there is. The organizers care deeply about everyone's experience and ensuring they get to hack in a comfortable and safe environment. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
     - question: "> 404 Question not found"
       answer: >
-        Talk to us at [hi@uottahack.com](mailto:hi@uottahack.com)
+        Talk to us at [hi@uottahack.com](mailto:hi@uottahack.com), or send us a message on [Facebook](https://www.facebook.com/UOttaHack-311120619343041/)!
 
   # This is the message you'll receive once you've registered.
   register:
