@@ -38,6 +38,27 @@ $(document).ready(function() {
 
         e.preventDefault();
     });
+
+    setInterval(function() {
+        let start = Date.now();
+        let end = new Date("02/17/2018 8:00");
+        let diff = new Date(end - start) / 1000;
+
+        // calculate (and subtract) whole days
+        let days = Math.floor(diff / 86400);
+        diff -= days * 86400;
+        let hours = Math.floor(diff / 3600) % 24;
+        diff -= hours * 3600;
+        let mins = Math.floor(diff / 60) % 60;
+        diff -= mins * 60;
+        let seconds = Math.floor(diff % 60);
+
+        document.getElementById("countdown-days").textContent = days > 0 ? days : "0";
+        document.getElementById("countdown-hours").textContent = hours> 0 ? hours : "0";
+        document.getElementById("countdown-minutes").textContent = mins > 0 ? mins : "0";
+        document.getElementById("countdown-seconds").textContent = seconds > 0 ? seconds : "0";
+    }, 100);
+
 });
 
 //MailChimp JS Function for the subscribe button

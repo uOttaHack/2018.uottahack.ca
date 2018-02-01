@@ -342,8 +342,8 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   width: 100%;
 }
 
-.sponsors .gold .logo--cse{
-  width: 700px;
+.sponsors .gold .logo--canada{
+  width: 450px;
 }
 
 .sponsors .silver{
@@ -385,6 +385,14 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   width: 250px;
 }
 
+.sponsors .bronze .logo--rl {
+  padding-top: 10px;
+}
+
+.sponsors .bronze .logo--scalar {
+  padding-top: 10px;
+  max-width: 120px;
+}
 
 .sponsors .bronze {
   display: flex;
@@ -422,6 +430,12 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .sponsors .bronze .logo--kanatanorthbia img{
   width: 120px;
 }
+
+
+.sponsors .bronze .logo--phreesia img{
+  width: 180px;
+}
+
 
 .inkind-wrapper{
   max-width: 800px;
@@ -499,6 +513,13 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .sponsors .logo--bloomberg{
   width: 250px;
 }
+
+
+.sponsors .logo--legacy{
+  width: 250px;
+}
+
+
   /*
 * The Team Section
 */
