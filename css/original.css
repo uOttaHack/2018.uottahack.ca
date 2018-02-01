@@ -389,6 +389,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   padding-top: 10px;
 }
 
+.sponsors .bronze .logo--scalar {
+  padding-top: 10px;
+  max-width: 120px;
+}
 
 .sponsors .bronze {
   display: flex;
@@ -509,6 +513,13 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 .sponsors .logo--bloomberg{
   width: 250px;
 }
+
+
+.sponsors .logo--legacy{
+  width: 250px;
+}
+
+
   /*
 * The Team Section
 */
