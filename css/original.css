@@ -465,7 +465,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .inkind .logo--nextcanada{
-  width: 150px;
+  width: 120px;
 }
 
 .sponsors .inkind .logo--communitech{
@@ -482,6 +482,10 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 
 .sponsors .inkind .logo--cds{
 	width:70px;
+}
+
+.sponsors .inkind .logo--stickermule{
+  width:175px;
 }
 
 .community-wrapper{
