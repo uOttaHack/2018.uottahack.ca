@@ -167,7 +167,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .logo{
-  width:100%;
+  width: 100%;
   margin:auto;
 }
 
@@ -323,11 +323,35 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
     text-decoration: none;
 }
 
+.sponsors .partner-wrapper .col-xs-12 {
+  margin: 20px 0 20px 0;
+}
+
+.sponsors .gold-wrapper .col-xs-12 {
+  margin: 20px 0 20px 0;
+}
+
+.sponsors .silver-wrapper .col-xs-12 {
+  margin: 20px 0 20px 0;
+}
+
+.sponsors .bronze-wrapper .col-xs-12 {
+  margin: 20px 0 20px 0;
+}
+
+.sponsors .inkind-wrapper .col-xs-6 {
+  margin: 15px 0 15px 0;
+}
+
+.sponsors .community-wrapper .col-xs-12 {
+  margin: 30px 0 30px 0;
+}
+
 .sponsors .partner img{
 
 }
 
-.sponsors .gold{
+.sponsors .partner{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -335,15 +359,15 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   margin: 3em;
 }
 
-.gold-wrapper{
+.pertner-wrapper{
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 60px;
   width: 100%;
 }
 
-.sponsors .gold .logo--canada{
-  width: 450px;
+.sponsors .partner .logo--canada{
+  max-width: 450px;
 }
 
 .sponsors .silver{
@@ -363,34 +387,37 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .silver .logo--klipfolio {
-  width: 225px;
+  max-width: 225px;
 }
 
 .sponsors .silver .logo--marchnetworks {
-  width: 250px;
+  max-width: 250px;
 }
 .sponsors .silver .logo--surveymonkey {
-  width: 450px;
+  max-width: 450px;
 }
 
 .sponsors .silver .logo--morganstanley {
-  width: 400px;
+  max-width: 400px;
 }
 
 .sponsors .silver .logo--youi {
-  width: 170px;
+  max-width: 170px;
 }
 
 .sponsors .silver .logo--deloitte {
-  width: 250px;
+  max-width: 250px;
+}
+
+.sponsors .silver .logo--sunlife {
+  max-width: 250px;
 }
 
 .sponsors .bronze .logo--rl {
-  padding-top: 10px;
+  max-width: 200px;
 }
 
 .sponsors .bronze .logo--scalar {
-  padding-top: 10px;
   max-width: 120px;
 }
 
@@ -411,29 +438,28 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .bronze .logo--agilebits{
-  width: 180px;
+  max-width: 180px;
 }
 
 .sponsors .bronze .logo--accenture{
-  width:180px;
-  padding-bottom: 20px;
+  max-width:180px;
 }
 
 .sponsors .bronze .logo--adga{
-  width:210px;
+  max-width:210px;
 }
 
 .sponsors .bronze .logo--bitesite img{
-  width: 200px;
+  max-width: 200px;
 }
 
 .sponsors .bronze .logo--kanatanorthbia img{
-  width: 120px;
+  max-width: 120px;
 }
 
 
 .sponsors .bronze .logo--phreesia img{
-  width: 180px;
+  max-width: 180px;
 }
 
 
@@ -453,39 +479,39 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .inkind .logo--jetbrains{
-  width: 100px;
+  max-width: 100px;
 }
 
 .sponsors .inkind .logo--twilio{
-  width: 150px;
+  max-width: 150px;
 }
 
 .sponsors .inkind .logo--digitalocean{
-  width:150px;
+  max-width:150px;
 }
 
 .sponsors .inkind .logo--nextcanada{
-  width: 120px;
+  max-width: 120px;
 }
 
 .sponsors .inkind .logo--communitech{
-  width: 150px;
-  }
+  max-width: 150px;
+}
 
 .sponsors .inkind .logo--redbull{
-  width: 150px;
+  max-width: 150px;
 }
 
 .sponsors .inkind .logo--indico{
-	width:100px;
+	max-width:100px;
 }
 
 .sponsors .inkind .logo--cds{
-	width:70px;
+	max-width:70px;
 }
 
 .sponsors .inkind .logo--stickermule{
-  width:175px;
+  max-width:175px;
 }
 
 .community-wrapper{
@@ -503,24 +529,24 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
   margin:3em;
 }
 .sponsors .logo--uo{
-  width:250px;
+  max-width:250px;
 }
 
 .sponsors .logo--mlh{
-  width:250px;
+  max-width:250px;
 }
 
 .sponsors .logo--github{
-  width:250px;
+  max-width:250px;
 }
 
 .sponsors .logo--bloomberg{
-  width: 250px;
+  max-width: 250px;
 }
 
 
 .sponsors .logo--legacy{
-  width: 200px;
+  max-width: 200px;
 }
 
 
