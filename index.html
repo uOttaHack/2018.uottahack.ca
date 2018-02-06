@@ -126,6 +126,78 @@ layout: default
     <!--End mc_embed_signup-->
 </section>
 
+<section id="schedule" class="schedule">
+  <div class="container">
+    <h1 class="text-center">SCHEDULE</h1>
+    <div class="panel">
+      <div class="panel-heading">
+        <a data-toggle="collapse" href="#saturday">
+          <h2 class="panel-title text-center">
+            Saturday
+          </h2>
+        </a>
+      </div>
+      <div id="saturday" class="panel-collapse collapse">
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <td>Time</td>
+                <td>Duration</td>
+                <td>Event</td>
+                <td>Location</td>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in site.event.schedule.saturday %}
+              <tr>
+                <td>{{ item.time}}</td>
+                <td>{{ item.duration }}</td>
+                <td>{{ item.event }}</td>
+                <td>{{ item.location }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-heading">
+        <a data-toggle="collapse" href="#sunday">
+          <h2 class="panel-title text-center">
+            Sunday
+          </h2>
+        </a>
+      </div>
+      <div id="sunday" class="panel-collapse collapse">
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <td>Time</td>
+                <td>Duration</td>
+                <td>Event</td>
+                <td>Location</td>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in site.event.schedule.sunday %}
+              <tr>
+                <td>{{ item.time}}</td>
+                <td>{{ item.duration }}</td>
+                <td>{{ item.event }}</td>
+                <td>{{ item.location }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id ="faq" class="faq">
   <div class="container">
     <h1 class="text-center">FREQUENTLY ASKED QUESTIONS</h1>
@@ -142,11 +214,11 @@ layout: default
 </section>
 
 <section id ="sponsors" class="sponsors">
-  <div class="wrapper text-center">
-      <h2>Interested in Sponsoring uOttaHack?</h2>
-      <br></br>
-      <a href="mailto:sponsorship@uottahack.com"class="welcome-buttons" target="_top">talk to sponsorship@uottahack.com</a>
-    </div>
+<!--   <div class="wrapper text-center">
+    <h2>Interested in Sponsoring uOttaHack?</h2>
+    <br></br>
+    <a href="mailto:sponsorship@uottahack.com"class="welcome-buttons" target="_top">talk to sponsorship@uottahack.com</a>
+  </div> -->
 
   <div class="wrapper text-center">
     <h1> Our Sponsors </h1>
