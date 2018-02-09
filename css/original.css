@@ -479,7 +479,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .inkind .logo--jetbrains{
-  max-width: 100px;
+  max-width: 80px;
 }
 
 .sponsors .inkind .logo--twilio{
@@ -511,11 +511,15 @@ div.collapse.navbar-collapse.navbar-ex1-collapse{
 }
 
 .sponsors .inkind .logo--stickermule{
-  max-width:175px;
+  max-width:160px;
 }
 
 .sponsors .inkind .logo--fitbit{
-  max-width:130px;
+  max-width:120px;
+}
+
+.sponsors .inkind .logo--diamond{
+  max-width:120px;
 }
 
 .community-wrapper{
