@@ -866,3 +866,7 @@ body {
   display: block;
   font-size: 4.5rem;
 }
+
+.workshop-modal {
+  color:black;
+}

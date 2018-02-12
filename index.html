@@ -156,7 +156,31 @@ layout: default
               <tr>
                 <td>{{ item.time}}</td>
                 <td>{{ item.duration }}</td>
-                <td>{{ item.event }}</td>
+                {% if item.description == null %}
+                  <td>{{ item.event }}</td>
+                {% else %}
+                  <td>
+                    <a href="#" data-toggle="modal" data-target="#{{ item.id }}">{{ item.event }}</a>
+                    <div id="{{ item.id }}" class="modal fade" role="dialog">
+                      <div class="modal-dialog modal-lg workshop-modal">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">{{ item.event }}</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>{{ item.description }}</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                {% endif %}
                 <td>{{ item.location }}</td>
               </tr>
               {% endfor %}
@@ -273,17 +297,17 @@ layout: default
         </div>
 
         <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="logo--morganstanley center-block">
-            <a href="https://www.morganstanley.com/">
-              <img src="images/sponsors/morganstanley.png">
+          <div class="logo--deloitte center-block">
+            <a href="https://www2.deloitte.com/ca/en.html">
+              <img src="images/sponsors/deloitte.png">
             </a>
           </div>
         </div>
 
         <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="logo--deloitte center-block">
-            <a href="https://www2.deloitte.com/ca/en.html">
-              <img src="images/sponsors/deloitte.png">
+          <div class="logo--morganstanley center-block">
+            <a href="https://www.morganstanley.com/">
+              <img src="images/sponsors/morganstanley.png">
             </a>
           </div>
         </div>
