@@ -120,7 +120,7 @@ event:
         id: "workshopNikhil"
         event: "Spicy Linux Commands: Present by Nikhil Peri"
         description: "Using unix is like eating spicy noodles, the first few times you have no clue what you got yourself into, your palms are sweaty and you might even shit your pants after your through with it...but do it enough times and it becomes second nature, and you start chasing the dragon looking for your next fix.  Come get a taste of some of the spiciest linux commands, or share some of your own and prove to the world you are a leet Hacker!"
-        location: "FSS 1007"
+        location: "FSS 9003"
     sunday:
       - time: "12:00 AM"
         duration: "1 Hour"
