@@ -20,6 +20,7 @@ $(function() {
 
 //FAQ accordion JS
 $(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
     function close_accordion_section() {
         $('.accordion .accordion-section-title').removeClass('active');
         $('.accordion .accordion-section-content').slideUp(150).removeClass('open');

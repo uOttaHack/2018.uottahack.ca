@@ -9,25 +9,25 @@
       <h1 rel="location" class="datetitle">{{ site.event.date }} <br> {{ site.event.location }}</h1>
       <h2 rel="description">{{ site.event.description }}</h2>
 
-      <div class="buttons">
+<!--       <div class="buttons">
         {% for link in site.event.hero.links %}
           {% if link.href %}
 
             <!--<a href="{{ link.href}}" class="welcome-buttons" target="_top">{{link.text}}</a>-->
           {% elsif link.my_mlh %}
-            <!--<a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>-->
+            <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
             {% endif %}
         {% endfor %}
         <!-- Button trigger modal -->
 
-        <button class="welcome-buttons" data-toggle="modal" data-target=#myModal>
+<!--         <button class="welcome-buttons" data-toggle="modal" data-target=#myModal>
           Volunteer/Mentor<br>Application Form
-        </button>
+        </button> -->
 
             </div>
         </div>
         <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
@@ -35,7 +35,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
