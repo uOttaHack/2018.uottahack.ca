@@ -8,7 +8,7 @@ baseurl: ""
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://uottahack.com"
+url: "https://uottahack.ca"
 
 # The ability to use custom themes.
 style:
@@ -46,8 +46,8 @@ event:
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://uottahacks.github.io/landing-page/success.html"
-      - text: "Say hi@uottahack.com"
-        href: "mailto:hi@uottahack.com"
+      - text: "Say hi@uottahack.ca"
+        href: "mailto:hi@uottahack.ca"
 
   about:
     description: >
@@ -196,7 +196,7 @@ event:
         Yes there is. The organizers care deeply about everyone's experience and ensuring they get to hack in a comfortable and safe environment. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
     - question: "> 404 Question not found"
       answer: >
-        Talk to us at [hi@uottahack.com](mailto:hi@uottahack.com), or send us a message on [Facebook](https://www.facebook.com/UOttaHack-311120619343041/)!
+        Talk to us at [hi@uottahack.ca](mailto:hi@uottahack.ca), or send us a message on [Facebook](https://www.facebook.com/UOttaHack-311120619343041/)!
 
   # This is the message you'll receive once you've registered.
   register:
